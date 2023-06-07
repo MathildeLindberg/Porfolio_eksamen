@@ -66,8 +66,25 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-
+    .container4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3rem;
+    }
     
+    .container5{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3rem;
+    }
+
+    .container6{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3rem;
+    }
+
+   
 
 
 
