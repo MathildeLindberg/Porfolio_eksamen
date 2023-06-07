@@ -30,7 +30,7 @@ h2 {
 
 .nav-bar {
     text-align: left;
-    background-color: rgb(227, 97, 170);
+    background-color: rgba(227, 97, 171, 0.311);
     letter-spacing: 1px;
     padding: 15px;
     min-height: 70px;
