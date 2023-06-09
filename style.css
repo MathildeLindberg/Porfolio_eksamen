@@ -2,7 +2,8 @@
 
 body {
     margin: auto;
-    background-color: hsl(36, 22%, 91%);
+    background-color: #ede9e3;
+    background-image: url(img/Skærmbillede\ 2023-06-07\ kl.\ 21.33.08.png);
    
 }
 
@@ -50,7 +51,7 @@ li {
 }
 
 li a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(248, 157, 109);
     font-size: 20px; 
     text-align: right;
@@ -83,6 +84,10 @@ img {
     height: auto;
 }
 
+.palads {
+    height: 1150px;
+    width: 1220px;
+}
 
   
 /* ---grund. web----- */
