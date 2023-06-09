@@ -26,7 +26,7 @@ body {
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
-    line-height: 1.5;
+    line-height: 1.9;
     text-align: left;
 
 }
@@ -75,7 +75,7 @@ li a {
 }
 
 a.active {
-    color: blue;
+    color: rgb(20, 209, 178);
 
 }
 
@@ -192,22 +192,18 @@ header {
     line-height: 1.8rem;
 }
 
-.forside {
-    width: 1200px;
-    height: auto;
-} 
+
 
 img {
     width: 100%;
     height: auto;
 }
 
-
   
 /* ---grund. web----- */
 
 .col {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
 }
 
