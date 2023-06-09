@@ -3,8 +3,13 @@
 body {
     margin: auto;
     background-color: #ede9e3;
-    background-image: url(img/Skærmbillede\ 2023-06-07\ kl.\ 21.33.08.png);
-   
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 p {
@@ -29,17 +34,7 @@ h2 {
 
 /* ------Menu------- */
 
-.nav-bar {
-    text-align: left;
-    background-color: rgba(227, 97, 171, 0.311);
-    letter-spacing: 1px;
-    padding: 15px;
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-}
 
 ul {
     list-style-type: none;
@@ -66,10 +61,119 @@ li a {
 }
 
 
-.nav-bar li a:hover {
+.navbar li a:hover {
     color: rgb(20, 209, 178);
    
 }
+
+a.active {
+
+}
+
+/* ------Hamburger------- */
+
+header {
+    background-color: aquamarine;
+    position: sticky;
+    padding: 0.8rem 2rem;
+}
+
+
+
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer {
+    width: -20px;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    transition: all 0.8s ease;
+    background-color: black;
+
+}
+
+@media (max-width: 1200px){
+    .container {
+        width: 100%;
+    }
+
+    .subcontainer {
+        width: 100%;
+    }
+
+    .hamburger{
+        display: block;
+        z-index: 2;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px)rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px)rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: absolute;
+       left: -100%;
+        top: 88px;
+        gap: 0;
+        flex-direction: column;
+        background-color: blueviolet;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 2;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+}
+
+
+
+
 
 
 /* -----om mig----- */
