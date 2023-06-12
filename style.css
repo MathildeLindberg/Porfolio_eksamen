@@ -209,3 +209,19 @@ img {
     margin-right: 2.5rem;
 }
 
+
+.icon{
+    width: 3%;
+    height: auto;
+}
+footer{
+    background-color:  #ede9e30e;
+    text-align: center;
+    line-height: 2%;
+    padding: 12px;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0%;
+}
+
+footer
