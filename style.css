@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+#index-page{
+    overflow: hidden;
+}
+
 body {
     margin: auto;
     background-color: #ede9e3;
@@ -98,7 +102,7 @@ header {
 }
 
 .subcontainer {
-    width: -20px;
+    width: auto;
     margin: auto;
 }
 

@@ -1,3 +1,22 @@
+
+@media (max-width: 600px) {
+h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #e253a3;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: left;
+}
+}
+
+
+
 @media (min-width: 1000px) {
 
     /* ---om mig----- */
